@@ -1,4 +1,8 @@
+function imprimirConsola( constructor : Function ) {
+    console.log( constructor );
+}
 
+@imprimirConsola
 export class Avenger {
 
     constructor(
