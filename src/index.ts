@@ -1,6 +1,7 @@
+import { Avenger } from './classes/avenger';
 
 
+const thor = new Avenger('Spiderman','Peter Parker');
 
-const mensaje = 'Hola Mundo!';
+thor.imprimir();
 
-console.log( mensaje );
